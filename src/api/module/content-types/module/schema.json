@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "modules",
+  "info": {
+    "singularName": "module",
+    "pluralName": "modules",
+    "displayName": "Module"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "Details": {
+      "type": "text",
+      "required": true
+    },
+    "Number_of_classes": {
+      "type": "integer",
+      "required": true
+    },
+    "Text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
